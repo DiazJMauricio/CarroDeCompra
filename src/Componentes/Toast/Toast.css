@@ -1,0 +1,37 @@
+.ToastContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  pointer-events: none;
+}
+.Toast {
+  font-size: 0.8em;
+  margin: 2em;
+  background-color: #333;
+  padding: 1em;
+  border-radius: 2em;
+  color: white;
+  font-weight: 600;
+  opacity: 0.9;
+  transition: all 0.3s;
+}
+.Toast.on {
+  /* animation-iteration-count: infinite; */
+}
+
+@keyframes Toast {
+  0% {
+    opacity: 0.9;
+  }
+  90% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}

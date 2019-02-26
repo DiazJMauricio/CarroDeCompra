@@ -1,0 +1,60 @@
+.NavBar {
+  position: sticky;
+  top: 0;
+  min-height: 2.5em;
+  z-index: 110;
+  background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+  padding: 0 2.5em;
+}
+.NavBar > p {
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  padding: 0 1em;
+}
+.NavMenu {
+  display: flex;
+  /* min-width: 300px; */
+  justify-content: flex-end;
+  align-items: center;
+}
+.NavMenu > * {
+  margin: 0 0.5em;
+}
+.NavMenu > p {
+  flex: 1;
+}
+.btnNavBarComprar {
+  padding: calc(1em / 1.9) 1em;
+  font-size: 1.1em;
+  background-color: #222;
+  color: #fff;
+  font-weight: 600;
+}
+.MobileCarShopBtn {
+  background: none;
+  color: #fff;
+  font-size: 1.2em;
+  width: 2em;
+  overflow: hidden;
+}
+
+@media (max-width: 450px) {
+  .NavBar {
+    padding: 0 0.5em;
+  }
+  .NavBar > p {
+    padding: 0;
+  }
+}
+@media (max-width: 550px) {
+  .btnNavBarComprar {
+    display: none;
+  }
+}

@@ -1,0 +1,93 @@
+header {
+  --headerH: 50vh;
+  width: 100%;
+  height: var(--headerH);
+  background-color: #fff;
+}
+.headerContainer {
+  width: 100%;
+  height: var(--headerH);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.headerImage {
+  min-width: 100%;
+}
+.headerImg {
+  min-width: 100%;
+}
+.headerTitle {
+  position: absolute;
+  font-size: 1em;
+  color: white;
+  left: 3em;
+}
+.headerTitleBox {
+  width: 12em;
+  height: 8em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  border-bottom: var(--border);
+  /* border-width: 10px; */
+  border-color: white;
+}
+.headerTitleBox::after {
+  content: "Camisas";
+  padding-top: 0.5em;
+  font-size: 2em;
+  animation: beforeContent 12s infinite;
+  opacity: 0;
+}
+
+@keyframes beforeContent {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+    content: "Camisas";
+  }
+
+  28% {
+    opacity: 1;
+    content: "Camisas";
+  }
+  33% {
+    opacity: 0;
+  }
+  38% {
+    opacity: 1;
+    content: "Remeras";
+  }
+  62% {
+    opacity: 1;
+    content: "Remeras";
+  }
+  66% {
+    opacity: 0;
+  }
+  71% {
+    opacity: 1;
+    content: "Pantalones";
+  }
+  95% {
+    opacity: 1;
+    content: "Pantalones";
+  }
+  100% {
+    opacity: 0;
+    content: "Pantalones";
+  }
+}
+
+@media (orientation: portrait) {
+  header {
+    --headerH: 30vh;
+  }
+}

@@ -1,0 +1,80 @@
+.CatalogoFiltros {
+  position: sticky;
+  top: 2.5em;
+  z-index: 30;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 4em;
+  background-color: #fff;
+  --inputColor: #fff;
+  border-bottom: var(--border);
+}
+.CatalogoFiltros div {
+  margin: 0 0.5em;
+}
+.buscador {
+  border-radius: 2em;
+  overflow: hidden;
+  border: var(--border);
+}
+
+.buscador input,
+.buscador button {
+  padding: 0.5em 1em;
+  background-color: var(--inputColor);
+}
+.tags button {
+  padding: 0.5em 1em;
+  margin: 5px 2px;
+  border-radius: 1em;
+  background-color: var(--inputColor);
+  border: var(--border);
+  color: var(--botonColor);
+  font-weight: 600;
+  transition: all 0.3s;
+}
+.tags button:hover {
+  color: var(--botonColorHover);
+  border-color: var(--botonColor);
+}
+.tags button.on {
+  --inputColor: var(--botonColorHover);
+  color: #fff;
+  border-color: var(--inputColor);
+}
+
+.genero button {
+  font-size: 1.6em;
+  height: 1.5em;
+  width: 1.5em;
+  margin: 0px 5px 5px 0;
+  border-radius: 0.5em;
+  background-color: var(--inputColor);
+  color: #666;
+  border: var(--border);
+  transition: all 0.3s;
+}
+.genero button svg {
+  pointer-events: none;
+}
+.genero button:nth-child(1):hover {
+  color: rgb(34, 114, 206);
+  border-color: rgb(34, 114, 206);
+}
+.genero button:nth-child(2):hover {
+  color: rgb(211, 62, 119);
+  border-color: rgb(211, 62, 119);
+}
+.genero button:nth-child(1).on {
+  color: #fff;
+  border-color: rgb(34, 114, 206);
+  background-color: rgb(34, 114, 206);
+}
+.genero button:nth-child(2).on {
+  color: #fff;
+  background-color: rgb(211, 62, 119);
+  border-color: rgb(211, 62, 119);
+}

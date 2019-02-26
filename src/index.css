@@ -1,9 +1,30 @@
+:root {
+  --font: "Montserrat", sans-serif;
+  --font2: "Open Sans", sans-serif;
+  --color1: rgb(94, 211, 90);
+  --color2: #b9b9b9;
+  --color3: #282932;
+  --color4: #89746e;
+  --color5: #5c5255;
+
+  --botonColor: #888;
+  --botonColorHover: #444;
+
+  --borderColor: #ccc;
+  --border: solid 3px var(--borderColor);
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: 0;
+}
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: var(--font), -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,4 +32,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+button {
+  font-family: var(--font);
+  cursor: pointer;
 }

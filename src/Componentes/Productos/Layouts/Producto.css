@@ -1,0 +1,128 @@
+.producto {
+  width: 12em;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  margin: 0.5em;
+  border-bottom: var(--border);
+  border-top: var(--border);
+  font-size: 0.9em;
+  transition: all 0.3s;
+}
+.producto:hover .productoImg {
+  height: 9em;
+}
+.producto:hover .productoInfo {
+  padding-bottom: 1em;
+}
+.oferta {
+  position: absolute;
+  width: 3em;
+  height: 3em;
+  right: 0;
+  border-radius: 0 0 0 50%;
+  background-color: var(--color1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  z-index: 10;
+}
+.productoImg {
+  width: 100%;
+  height: 10em;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.productoImg:hover img {
+  transform: scale(1.2);
+}
+.productoImg img {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  transition: all 0.3s;
+}
+.productoInfo {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1em;
+  transition: all 0.3s;
+  margin: 0 1em;
+}
+.productoInfo label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 1em;
+  cursor: pointer;
+}
+.precioOriginal {
+  opacity: 0.5;
+  font-size: 0.5em;
+  font-weight: 700;
+  text-align: left;
+  margin-top: -0.2em;
+  text-decoration: line-through;
+}
+.productoNombre {
+  color: #444;
+  font-size: 0.9em;
+  text-align: left;
+  margin-bottom: 0.5em;
+}
+.Precios {
+  font-size: 1.8em;
+}
+.productoPrecio {
+  color: rgb(93, 136, 95);
+  height: 100%;
+  text-align: right;
+  flex: 1;
+}
+
+.btnAdd {
+  color: #888;
+
+  height: 2em;
+  width: 2em;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.btnAdd svg {
+  transition: all 0.3s;
+}
+.btnAdd:hover {
+  background-color: #eee;
+  color: rgb(93, 136, 95);
+}
+.btnAdd:hover svg {
+  animation: AddProduct 0.8s linear infinite;
+}
+.btnAdd:active {
+  background-color: #ddd;
+}
+.btnAdd:active svg {
+  animation: none;
+  transform: scale(1.2);
+}
+
+@keyframes AddProduct {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(3px);
+  }
+
+  75% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

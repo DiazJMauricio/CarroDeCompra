@@ -1,0 +1,59 @@
+Slider Componente   ...17/12/2018.
+Diaz J. Mauricio.
+
+Muestra una serie de imagenes una por una permitiendo navegar entre estas.
+
+Atributos:
+    imagenes
+    speed
+    showButtons
+    height
+==============================================================================
+
+    imagenes    =   Un arreglo de objetos, este objeto puede tener 2 atributos.
+                    img: ruta de la imagen a mostrar.
+                    source: arrego que objetos (Opcional)
+                        img: ruta de la imagen a mostrar.
+                        media: media query que la activa.
+------------------------------------------------------------------------------
+     imagenes = [
+                    {
+                        img: "https://img...",
+                        source: [
+                            {
+                                img: "https://img...",
+                                media: "(max-width: 450px)"
+                            },
+                            {
+                                img: "https://img...",
+                                media: "(max-width: 650px)"
+                            }
+                        ]
+                    },
+                    {
+                        img: "https://img..."
+                    }
+                ]
+
+==============================================================================
+
+    speed       =   La velocidad con que la imagen va a cambiar en ms.
+                    default: 7000.
+------------------------------------------------------------------------------
+    speed={5000}
+    
+==============================================================================
+
+    showButtons =   Muestra o oculta los botones del Slider.
+                    default: true
+------------------------------------------------------------------------------
+    showButtons={false}
+
+==============================================================================
+
+    height      =   Asigna la altura del Slider 
+                    default: "100%".
+------------------------------------------------------------------------------
+    height={50vh}
+
+==============================================================================

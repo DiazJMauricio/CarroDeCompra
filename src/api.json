@@ -1,0 +1,183 @@
+{
+  "Productos": [
+    {
+      "id": 1,
+      "nombre": "Camisa Algodon Blanca",
+      "valor": 650,
+      "imagen": "https://http2.mlstatic.com/camisa-hombre-farenheite-blanca-D_NQ_NP_812621-MLA25940206495_092017-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 20,
+      "genero": "male",
+      "tag": "camisa"
+    },
+    {
+      "id": 2,
+      "nombre": "Camisa Lino ",
+      "valor": 1250,
+      "imagen": "https://http2.mlstatic.com/camisa-big-mehari-de-camaron-brujo-oficial-D_NQ_NP_974477-MLA29174036877_012019-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 15,
+      "genero": "male",
+      "tag": "camisa"
+    },
+    {
+      "id": 3,
+      "nombre": "Remera Estampada",
+      "valor": 215,
+      "imagen": "https://http2.mlstatic.com/remeras-mujer-estampadas-personalizadas-sublimadas-D_NQ_NP_203905-MLA25102308688_102016-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "female",
+      "tag": "remera"
+    },
+    {
+      "id": 4,
+      "nombre": "Remera Estampada",
+      "valor": 200,
+      "imagen": "https://http2.mlstatic.com/remeras-manga-ranglan-personalizadas-D_NQ_NP_750188-MLA28227493331_092018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 10,
+      "genero": "male",
+      "tag": "remera"
+    },
+    {
+      "id": 5,
+      "nombre": "Remera Estampada",
+      "valor": 220,
+      "imagen": "https://http2.mlstatic.com/remeras-manga-ranglan-personalizadas-D_NQ_NP_646021-MLA28227498287_092018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 50,
+      "genero": "male",
+      "tag": "remera"
+    },
+    {
+      "id": 6,
+      "nombre": "Remera Estampada",
+      "valor": 205,
+      "imagen": "https://http2.mlstatic.com/remeras-mujer-estampadas-personalizadas-elegi-tu-diseno-D_NQ_NP_719905-MLA25102306871_102016-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 50,
+      "genero": "female",
+      "tag": "remera"
+    },
+    {
+      "id": 7,
+      "nombre": "Camisa Negra",
+      "valor": 500,
+      "imagen": "https://http2.mlstatic.com/camisa-hombre-farenheite-negra-D_NQ_NP_638266-MLA25940190161_092017-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 10,
+      "genero": "male",
+      "tag": "camisa"
+    },
+    {
+      "id": 8,
+      "nombre": "Camisa a Lunares Mangas Corta",
+      "valor": 895,
+      "imagen": "https://http2.mlstatic.com/camisas-manga-corta-D_NQ_NP_755935-MLA29128166280_012019-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "camisa"
+    },
+    {
+      "id": 9,
+      "nombre": "Pantalon Cargo Reforzado",
+      "valor": 850,
+      "imagen": "https://http2.mlstatic.com/pantalon-cargo-explora-reforzado-mejor-del-mercado-bolsillo-D_NQ_NP_761705-MLA25074393709_092016-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "pantalon"
+    },
+    {
+      "id": 10,
+      "nombre": "Pantalon Jeam de Vestir",
+      "valor": 1055,
+      "imagen": "https://http2.mlstatic.com/pantalon-jean-mujer-de-vestir-dama-elastizado-vestir-D_NQ_NP_796015-MLA28760410700_112018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "female",
+      "tag": "pantalon"
+    },
+    {
+      "id": 11,
+      "nombre": "Pantalon Garbarina Elastizado",
+      "valor": 750,
+      "imagen": "https://http2.mlstatic.com/pantalon-chino-gabardina-elastizada-be-yourself-tiendas-D_NQ_NP_640157-MLA28031324997_082018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "pantalon"
+    },
+    {
+      "id": 12,
+      "nombre": "Pantalon Cargo Tactico",
+      "valor": 1125,
+      "imagen": "https://http2.mlstatic.com/pantalon-cargo-tactico-rescue-negro-rip-stop-antidesgarro-D_NQ_NP_860284-MLA29199877903_012019-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "pantalon"
+    },
+    {
+      "id": 13,
+      "nombre": "Pantalon Cargo Camuflado",
+      "valor": 785,
+      "imagen": "https://http2.mlstatic.com/pantalones-cargos-camuflados-gabarina-desmontable-jeans710-D_NQ_NP_895806-MLA27484708476_062018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "pantalon"
+    },
+    {
+      "id": 14,
+      "nombre": "Pantalon Chipin Negro",
+      "valor": 755,
+      "imagen": "https://http2.mlstatic.com/jean-chupin-pantalon-D_NQ_NP_631630-MLA26892280005_022018-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "pantalon"
+    },
+    {
+      "id": 15,
+      "nombre": "Pantalon de Vestir Dama",
+      "valor": 855,
+      "imagen": "https://http2.mlstatic.com/pantalon-de-vestir-para-dama-modelo-woman-classic-D_NQ_NP_972610-MLA25540167871_042017-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "female",
+      "tag": "pantalon"
+    },
+    {
+      "id": 16,
+      "nombre": "Pantalonde Fiesta Dama",
+      "valor": 1545,
+      "imagen": "https://http2.mlstatic.com/pantalon-palazzo-de-fiesta-de-gasa-talles-grandes-D_NQ_NP_656626-MLA25616492773_052017-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "female",
+      "tag": "pantalon"
+    },
+    {
+      "id": 17,
+      "nombre": "Camisa Tyree Mirta",
+      "valor": 1270,
+      "imagen": "https://ae01.alicdn.com/kf/HTB1uXnGijoIL1JjSZFyq6zFBpXaI/Hombres-camisa-2018-primavera-nuevo-hit-color-hombre-Camisas-de-traje-moda-casual-marea-camisa-hombre.jpg_640x640.jpg",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "genero": "male",
+      "tag": "camisa"
+    },
+    {
+      "id": 18,
+      "nombre": "Camisa Jean Mujer",
+      "valor": 650,
+      "imagen": "https://http2.mlstatic.com/camisa-jean-mujer-D_NQ_NP_791554-MLA29221712074_012019-F.webp",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 50,
+      "genero": "female",
+      "tag": "camisa"
+    },
+    {
+      "id": 19,
+      "nombre": "Camisa Jean ",
+      "valor": 900,
+      "imagen": "https://images-na.ssl-images-amazon.com/images/I/61jsSnf-JsL._SY355_.jpg",
+      "descripcion": "Sunt cupidatat duis proident quis est.",
+      "oferta": 50,
+      "genero": "male",
+      "tag": "camisa"
+    }
+  ]
+}
