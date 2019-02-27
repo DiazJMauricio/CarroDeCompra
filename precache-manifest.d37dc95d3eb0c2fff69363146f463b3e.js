@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/CarroDeCompra/static/js/runtime~main.4da0c33d.js"
   },
   {
-    "revision": "45007ec6551bc2e900bb",
-    "url": "/CarroDeCompra/static/js/main.45007ec6.chunk.js"
+    "revision": "1dc6ebbbbdb651b0a697",
+    "url": "/CarroDeCompra/static/js/main.1dc6ebbb.chunk.js"
   },
   {
     "revision": "67db185a0e58abb5435e",
     "url": "/CarroDeCompra/static/js/2.67db185a.chunk.js"
   },
   {
-    "revision": "45007ec6551bc2e900bb",
-    "url": "/CarroDeCompra/static/css/main.8f2401c1.chunk.css"
+    "revision": "1dc6ebbbbdb651b0a697",
+    "url": "/CarroDeCompra/static/css/main.0532ef68.chunk.css"
   },
   {
-    "revision": "2093793b73932d3946ae03e058459705",
+    "revision": "92488dcad3d7d5c5c3d61a74043311a7",
     "url": "/CarroDeCompra/index.html"
   }
 ];
