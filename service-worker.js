@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/CarroDeCompra/precache-manifest.c486a24857ea1d5de928ce9c6288048a.js"
+  "/CarroDeCompra/precache-manifest.a4c5580a7adcbb6458028a5b32a11ca1.js"
 );
 
 workbox.clientsClaim();
